@@ -11,7 +11,7 @@
 ![App Demo](screenshots/Screen_recording.gif)
 
 ### App Screenshots
-|                 Dashboard                  |                 Create Task                  |               Calendar View               |
+|                 Dashboard                  |                  Calendar View                |            Create Task                   |
 |:------------------------------------------:|:--------------------------------------------:|:-----------------------------------------:|
 | ![Dashboard](screenshots/Screenshot_1.png) | ![Create Task](screenshots/Screenshot_2.png) | ![Calendar](screenshots/Screenshot_3.png) |
 
