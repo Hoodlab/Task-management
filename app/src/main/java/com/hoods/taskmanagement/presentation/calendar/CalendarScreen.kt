@@ -29,6 +29,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.hoods.taskmanagement.data.local.models.Task
+import com.hoods.taskmanagement.data.local.models.dummyTasks
 import com.hoods.taskmanagement.presentation.my_tasks.TaskItemComponent
 import java.nio.file.WatchEvent
 import java.time.LocalDate
@@ -175,7 +176,9 @@ private fun CalendarScreen(
 @Composable
 private fun CalendarScreenPrev() {
     CalendarScreen(
-        state = CalenderUiState(),
+        state = CalenderUiState(
+            tasksForSelectedDate = dummyTasks
+        ),
         onDateSelected = {},
         onNextMonth = {},
         onPreviousMonth = {},
